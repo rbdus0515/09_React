@@ -7,6 +7,7 @@ import Exam4 from './component/Exam4';
 import Exam5 from './component/Exam5';
 import Exam6_1 from './component/Exam6_1';
 import Exam6_2 from './component/Exam6_2';
+import TodoList from './component/TodoList';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Exam4 /> */}
       {/* <Exam5 /> */}
       {/* <Exam6_1 /> */}
-      <Exam6_2 />
+      {/* <Exam6_2 /> */}
+      <TodoList />
 
       {/* jsx 주석처리 */}
     </div>
