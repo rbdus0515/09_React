@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+// 스프링부트 파일 내 구글 드라이브에 있음
+
 const SpringFront = () => {
 
     const [message, setMessage] = useState([]);
