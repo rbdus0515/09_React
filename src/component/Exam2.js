@@ -4,14 +4,19 @@ const Exam2 = () => {
 
     const [count, setCount] = useState(0);
 
-    const handleClick = () => {
+    const plusClick = () => {
         setCount(count + 1);
+    }
+
+    const handleClick = () => {
+        setCount(count - 1);
     }
 
     return (
         <div>
             <h1>Count : {count}</h1>
-            <button onClick={handleClick}>Increment</button>
+            <button onClick={plusClick}>+</button>
+            <button onClick={handleClick}>-</button>
         </div>
     );
 };

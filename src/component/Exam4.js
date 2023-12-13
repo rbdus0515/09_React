@@ -35,7 +35,7 @@ const Id = ({onChangeId}) => {
     );
 }
 
-// 자식 컴포넌트 Id
+// 자식 컴포넌트 Pw
 const Pw = ({onChangePw}) => {
     return(
         <div>

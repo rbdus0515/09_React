@@ -9,6 +9,7 @@ import Exam6_1 from './component/Exam6_1';
 import Exam6_2 from './component/Exam6_2';
 import TodoList from './component/TodoList';
 import SpringFront from './component/SpringFront';
+import Count1 from './component/Count1';
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
       {/* <Exam6_1 /> */}
       {/* <Exam6_2 /> */}
       {/* <TodoList /> */}
-      <SpringFront />
+      {/* <SpringFront /> */}
+      <Count1 />
+
 
       {/* jsx 주석처리 */}
     </div>
